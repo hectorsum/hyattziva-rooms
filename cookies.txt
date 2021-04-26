@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.reservhotel.com	TRUE	/	FALSE	1999999999	__cfduid	d1f2eb231a82b5d006e095e73e95980a31619443479
+www.reservhotel.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.bootstrapcdn.com	TRUE	/	FALSE	1999999999	__cfduid	d26e4d88329a3c8d121670678206c9b441619443482
+maxcdn.bootstrapcdn.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.cloudflareinsights.com	TRUE	/	FALSE	1999999999	__cfduid	d8d8217de6138e8ea68620d0b92d1e1ed1619443534
+static.cloudflareinsights.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
