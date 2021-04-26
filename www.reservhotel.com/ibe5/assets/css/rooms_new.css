@@ -1,0 +1,182 @@
+#rooms_form .hotel-thumb{
+  width: 100%;
+  min-height: 100%;
+}
+.price-mobile-view{
+  display:none;
+}
+.prince2{
+  padding: 0;
+}
+.select-room-btn2 select-room-btn rate-type-btn{
+  border: none;
+}
+@media (max-width: 1200px){
+  .detall-hotel2{
+    width: 100%;
+  }
+  .datell-head{
+    padding-bottom: 0 !important;
+  }
+  .info-withairport{
+    min-width: 135px;
+  }
+  .info-withairport .static-airport{
+    width: 100%;
+  }
+  .static-airport{
+    width: 50% !important;
+    margin-bottom: 2px;
+  }
+  .sta-div1 button {
+    border: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .boton li .static-airport{
+    width: 100% !important;
+  }
+}
+@media (max-width: 992px){
+  .price-b{
+    font-size: 16px !important;
+  }
+  .price-c{
+    font-size: 18px !important;
+  }
+  img {
+    border: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .price-desktop-view{
+    width: 100%;
+  }
+  .prince2 a{
+    padding: 12px 24px !important;
+    font-size: 14px !important;
+  }
+  .hotel-heading{
+    font-size: 18px !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .hotel-desc{
+    font-size: 14px !important;
+    height: initial;
+  }
+  .sta-div1 button {
+    border: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .txt{
+    white-space: initial !important;
+    height: initial !important;
+  }
+  .border-Rb9b8b8{
+    border:none !important;
+  }
+  .datell-head{
+    padding-bottom: 0 !important;
+  }
+  .boton>li.with-airport{
+    margin: 0 !important;
+  }
+  .info-withairport{
+    min-width: 135px;
+  }
+  .info-withairport .static-airport{
+    width: 100%;
+  }
+  .static-airport{
+    width: 80% !important;
+    margin-bottom: 2px;
+  }
+}
+@media (max-width: 768px){
+  #rooms_form .hotel-thumb{
+    height: 138px !important;
+  }
+  img{
+    width: 100%;
+  }
+}
+@media (max-width: 576px){
+  .price-mobile-view .prince2{
+    width: auto !important;
+  }
+  .prince2{
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .prince2 .btn{
+    width: 100% !important;
+  }
+  .static-airport{
+    width: 80% !important;
+  }
+  img{
+    width: 100%;
+  }
+  .sta-div1 button {
+    border: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .txt{
+    white-space: initial !important;
+    height: initial !important;
+  }
+  .border-Rb9b8b8{
+    border:none !important;
+  }
+  .datell-head{
+    padding-bottom: 0 !important;
+  }
+  .boton>li.with-airport{
+    margin: 0 !important;
+  }
+  .info-withairport{
+    min-width: 135px;
+  }
+  .info-withairport .static-airport{
+    width: 100%;
+  }
+  .price-b{
+    font-size: 16px !important;
+  }
+  .price-c{
+    font-size: 18px !important;
+  }
+  .static-airport{
+    width: 80%;
+  }
+  .hotel-heading{
+    font-size: 18px !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .hotel-desc{
+    font-size: 14px !important;
+    height: initial;
+  }
+  .hotel-thumb{
+    margin: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+  .prince2 a{
+    padding: 12px 24px !important;
+    font-size: 14px !important;
+  }
+  .price-mobile-view{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .prince2{
+    text-align: left;
+  }
+  .price-desktop-view{
+    display: none;
+  }
+}
