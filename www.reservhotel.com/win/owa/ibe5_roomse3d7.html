@@ -1261,9 +1261,9 @@
     <br />
   </div>
   <a href="javascript:;" class="mobile-see-more-rooms" style="display:none;">See More Rooms</a>
-  <div class="all-wrap container" style="position: relative;" style="width: 1547px;" style="display:none;">
+  <div class="all-wrap container" style="position: relative;" style="display:none;" id="main">
     <header id="header">
-      <div class="top-nav row" style="background: ##f5f5f5 !important;">
+      <div class="top-nav row" style="background: #f5f5f5 !important;">
         <button class="navbar-toggler pull-xs-left hidden-lg-down-up hidden-md-up" type="button" data-toggle="collapse"
           data-target="#navbar-collapse"><img src="../../ibe5/assets/images/icon_hamburgermenu.png"></button>
         <div class="travel-summary-box hidden-lg-down-up hidden-md-up">
@@ -1368,24 +1368,27 @@
         <div class="col-12 col-sm-12 col-md-8">
           <div class="row">
             <div class="col-6 col-sm-6 col-md-12">
-              <img src="../../ibe5/assets/images/secure-shopping.png" alt="Secure Shopping"
-                title="Your shopping is secure" />
+              <img src="../../ibe5/assets/images/secure-shopping2.png" alt="Secure Shopping"
+                title="Your shopping is secure" class="secure-shopping-img"/>
             </div>
             <div class="col-6 col-sm-6 visibility-only-mobile text-right">
               <a class="pop-up-link badge-footer" href="#hotel-policies">Hotel Policies</a>
             </div>
             <div class="col-12 col-sm-12 contact_information">
-              Copyright &reg; 2021 <p><br />
-                <br />
+              <p>
+                Copyright &reg; 2021 
+              </p>
+              <p>
                 For reservations please call: +1-844-228-9501 in US or Canada. All other countries please call:
-                +786-269-2041<br />
-                <br />
+                +786-269-2041
+                <br/><br/>
                 Or please emails us at: <a
                   href="https://www.reservhotel.com/cdn-cgi/l/email-protection#3f4f535e465e4d5a4c504d4b4c7f4d5a4c5a4d4957504b5a53115c5052"><span
                     class="__cf_email__"
                     data-cfemail="cabaa6abb3abb8afb9a5b8beb98ab8afb9afb8bca2a5beafa6e4a9a5a7">[email&#160;protected]</span></a><br />
                 <br />
-                2020 Playa Management USA, LLC. All rights reserved. </p>
+                2020 Playa Management USA, LLC. All rights reserved. 
+              </p>
             </div>
           </div>
         </div>
@@ -1396,7 +1399,7 @@
         </div>
       </div>
       Powered by <br><a target="_blank" href="https://www.reservhotel.com/"><img
-          src="../../ibe4/assets/images/rhlogo.png" alt="ReservHotel Logo" style="width:11%;" /></a>
+          src="../../ibe4/assets/images/rhlogo.png" alt="ReservHotel Logo" class="reserv-hotel-logo" /></a>
     </footer>
     <div class="pop-up" id="hotel-policies" style="max-width:500px;">
       <h3 class="pop-up-title">Hotel Policies</h3>
@@ -2191,6 +2194,14 @@
   </div>
   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script type="text/javascript">
+    $(function(){
+      $(window).on('resize', () =>{
+        var widthX = $(this).width();
+        (widthX < 992) ? 
+            $('#main').addClass('container-fluid').removeClass('container') : 
+            $('#main').addClass('container').removeClass('container-fluid')
+      })
+    })
     function hexToRgb(hex) {
       var bigint = parseInt(hex, 16);
       var r = (bigint >> 16) & 255;

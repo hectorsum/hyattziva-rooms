@@ -1,3 +1,12 @@
+.detall-hotel2{
+  padding: 0 !important;
+}
+.secure-shopping-img{
+  width: 25%;
+}
+.reserv-hotel-logo{
+  width: 15%;
+}
 #rooms_form .hotel-thumb{
   width: 100%;
   min-height: 100%;
@@ -11,22 +20,54 @@
 .select-room-btn2 select-room-btn rate-type-btn{
   border: none;
 }
-@media (max-width: 1200px){
-  .detall-hotel2{
-    width: 100%;
+.border-right{
+  border-right: 1px solid #ebe8e8;
+}
+.prince2 a {
+  padding: 8px 16px !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+.select-room-btn2{
+  margin-left: 0 !important;
+}
+.hotel-desc{
+  font-size: 16px !important;
+  line-height: initial !important;
+}
+.price-b{
+  font-size: 20px !important;
+  line-height: initial !important;
+}
+.price-c{
+  font-size: 30px !important;
+}
+.sta-div1 button {
+  border: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+@media (min-width: 1200px){
+  .raname{
+    font-size: 16px !important;
+  }
+  .box-paragraph{
+    font-size: 15px !important;
+    line-height: initial !important;
+    white-space: initial !important;
+    height: auto !important;
+  }
+  .detailed-paragraph{
+    font-size: 18px !important;
+    line-height: initial !important;
+    white-space: initial !important;
   }
   .datell-head{
     padding-bottom: 0 !important;
   }
-  .info-withairport{
-    min-width: 135px;
-  }
-  .info-withairport .static-airport{
-    width: 100%;
-  }
-  .static-airport{
-    width: 50% !important;
-    margin-bottom: 2px;
+  .hotel-detall-ma{
+    display: flex;
+    justify-content: space-evenly;
   }
   .sta-div1 button {
     border: none !important;
@@ -36,13 +77,56 @@
   .boton li .static-airport{
     width: 100% !important;
   }
+  .prince2 a{
+    padding: 8px 16px;
+  }
+  .static-airport{
+    width: 25% !important;
+    margin-bottom: 2px;
+  }
+  .hotel-heading{
+    font-size: 18px !important;
+    margin-bottom: initial;
+  }
+}
+@media (min-width: 992px){
+  .slides img {
+    width: 100%;
+  }
+} 
+@media (max-width: 1200px) {
+  .hotel-detall-ma{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .detall-hotel2{
+    width: 100%;
+  }
+  .datell-head{
+    padding-bottom: 0 !important;
+  }
+  
+  .static-airport{
+    width: 50% !important;
+    margin-bottom: 2px;
+  }
+  .boton li .static-airport{
+    width: 100% !important;
+  }
 }
 @media (max-width: 992px){
+  .info-withairport{
+    min-width: 135px;
+  }
+  .info-withairport .static-airport{
+    width: 100%;
+  }
   .price-b{
-    font-size: 16px !important;
+    font-size: 20px !important;
+    line-height: initial !important;
   }
   .price-c{
-    font-size: 18px !important;
+    font-size: 25px !important;
   }
   img {
     border: 0;
@@ -51,10 +135,6 @@
   }
   .price-desktop-view{
     width: 100%;
-  }
-  .prince2 a{
-    padding: 12px 24px !important;
-    font-size: 14px !important;
   }
   .hotel-heading{
     font-size: 18px !important;
@@ -89,19 +169,42 @@
     width: 100%;
   }
   .static-airport{
-    width: 80% !important;
+    width: 50% !important;
     margin-bottom: 2px;
   }
 }
 @media (max-width: 768px){
+  .reserv-hotel-logo{
+    width: 20%;
+  }
+  .secure-shopping-img{
+    width: 50%;
+  }
+  .price-b{
+    font-size: 16px !important;
+  }
+  .price-c{
+    font-size: 18px !important;
+  }
   #rooms_form .hotel-thumb{
     height: 138px !important;
   }
   img{
     width: 100%;
   }
+  .static-airport{
+    width: 65% !important;
+  }
 }
 @media (max-width: 576px){
+  
+  .prince2 a{
+    padding: 12px 24px !important;
+    font-size: 14px !important;
+  }
+  .border-right{
+    border-right: none !important;
+  }
   .price-mobile-view .prince2{
     width: auto !important;
   }
