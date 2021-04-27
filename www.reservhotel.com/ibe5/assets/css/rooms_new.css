@@ -2,7 +2,7 @@
   padding: 0 !important;
 }
 .secure-shopping-img{
-  width: 25%;
+  width: 70%;
 }
 .reserv-hotel-logo{
   width: 15%;
@@ -174,11 +174,14 @@
   }
 }
 @media (max-width: 768px){
+  .section-footer .footer-content{
+    width: 50% !important;
+  }
   .reserv-hotel-logo{
     width: 20%;
   }
   .secure-shopping-img{
-    width: 50%;
+    width: 60%;
   }
   .price-b{
     font-size: 16px !important;
@@ -195,8 +198,22 @@
   .static-airport{
     width: 65% !important;
   }
+  header#header .header-image-box .logo{
+    top: 16% !important; 
+    /* right: 12% !important; */
+    /* padding-left: 0 !important; */
+  }
 }
-@media (max-width: 576px){
+@media (max-width: 576px){ 
+  header#header .header-image-box{
+    background-size: 100% 100% !important;
+  }
+  .reserv-hotel-logo{
+    width: 50% !important;
+  }
+  .secure-shopping-img{
+    width: 100% !important;
+  }
   
   .prince2 a{
     padding: 12px 24px !important;
@@ -281,5 +298,12 @@
   }
   .price-desktop-view{
     display: none;
+  }
+}
+@media (max-width: 380px){
+  header#header .header-image-box .logo{
+    top: 20% !important; 
+    right: 10% !important;
+    padding-left: 0 !important;
   }
 }
