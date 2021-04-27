@@ -1,3 +1,19 @@
+.boton .static-airport{
+  margin-right: 0px !important;
+}
+.stuff{
+  padding: 2rem 2rem;
+}
+.hotel-detall-ma{
+  margin: 0 !important;
+}
+.datell-head{
+  padding-bottom: 0 !important;
+  padding: 0 !important;
+}
+.hotel-desc{
+  height: auto !important;
+}
 .detall-hotel2{
   padding: 0 !important;
 }
@@ -27,12 +43,13 @@
   padding: 8px 16px !important;
   font-size: 14px !important;
   text-align: center !important;
+  white-space: normal !important;
 }
 .select-room-btn2{
   margin-left: 0 !important;
 }
 .hotel-desc{
-  font-size: 16px !important;
+  font-size: 14px !important;
   line-height: initial !important;
 }
 .price-b{
@@ -67,7 +84,7 @@
   }
   .hotel-detall-ma{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .sta-div1 button {
     border: none !important;
@@ -97,13 +114,15 @@
 @media (max-width: 1200px) {
   .hotel-detall-ma{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 !important;
   }
   .detall-hotel2{
     width: 100%;
   }
   .datell-head{
     padding-bottom: 0 !important;
+    padding: 0 !important;
   }
   
   .static-airport{
@@ -115,6 +134,9 @@
   }
 }
 @media (max-width: 992px){
+  .hotel-heading{
+    line-height: 18px !important;
+  }
   .info-withairport{
     min-width: 135px;
   }
@@ -196,7 +218,7 @@
     width: 100%;
   }
   .static-airport{
-    width: 65% !important;
+    width: 80% !important;
   }
   header#header .header-image-box .logo{
     top: 16% !important; 
@@ -233,7 +255,7 @@
     width: 100% !important;
   }
   .static-airport{
-    width: 80% !important;
+    width: 100% !important;
   }
   img{
     width: 100%;
@@ -268,9 +290,6 @@
   .price-c{
     font-size: 18px !important;
   }
-  .static-airport{
-    width: 80%;
-  }
   .hotel-heading{
     font-size: 18px !important;
     margin-bottom: 0.5rem !important;
@@ -301,6 +320,9 @@
   }
 }
 @media (max-width: 380px){
+  .stuff{
+    padding: 1rem;
+  }
   header#header .header-image-box .logo{
     top: 20% !important; 
     right: 10% !important;
